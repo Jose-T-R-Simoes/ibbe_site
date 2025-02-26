@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Igreja Bíblica Batista</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
@@ -21,25 +21,48 @@
             </ul>
         </nav>
     </header>
-
+    <main>
         <section id="banner">
             <h1>Bem-vindo à Igreja Bíblica Batista</h1>
             <p>Junte-se a nós para adorar e servir.</p>
+            <div class="list">
+                <div class="item">
+                    <div class="igreja1-img">
+                        <img src="images/IMG_1649.JPG" width="320" height="205" alt="print igreja ig">
+                    </div>
+                </div>
+            </div>
             <a href="about.html" class="btn">Saiba Mais</a>
         </section>
         <section id="highlights">
             <h2>Próximos Eventos</h2>
-            <!-- Adicione cartões de eventos aqui -->
-            <h2>Últimas Notícias</h2>
-            <!-- Adicione notícias aqui -->
-                <div class="list">
-                    <div class="item">
-                        <div class="igreja1-img">
-                            <img src="images/Captura de tela 2025-02-26 095523.png" alt="print igreja ig">
-                        </div>
+            <div class="event-cards">
+                <div class="event-card">
+                    <img src="images/IMG_1629.JPG" width="320" height="205" alt="imagem Evento 1" class="event-image1">
+                    <div class="event-info">
+                        <h3>Evento 1</h3>
+                        <p>Data: 10 de Março, 2025</p>
+                        <p>Local: Igreja Bíblica Batista</p>
+                        <a href="event1.html" class="btn">Saiba Mais</a>
                     </div>
                 </div>
-            <main>
+                <div class="event-card">
+                    <img src="images/IMG_1603.JPG" width="320" height="205" alt="imagem Evento 2" class="event-image2">
+                    <div class="event-info">
+                        <h3>Evento 2</h3>
+                        <p>Data: 17 de Março, 2025</p>
+                        <p>Local: Igreja Bíblica Batista</p>
+                        <a href="event2.html" class="btn">Saiba Mais</a>
+                    </div>
+                </div>
+                <!-- Adicione mais cartões de eventos conforme necessário -->
+            </div>
+            <div class="arrows">
+                <button id="prev"><img src="Html/images/arrowiosback_111116.svg" alt="anterior"></button>
+                <button id="next"><img src="Html/images/arrowiosback_111116.svg" alt="proximo"></button>             
+            </div>
+            <h2>Últimas Notícias</h2>
+            <!-- Adicione notícias aqui -->
         </section>
     </main>
     <footer>

@@ -1,0 +1,7 @@
+.event-image2 {
+    width: 100%; /* Ajusta a largura da imagem para 100% do contêiner pai */
+    height: auto; /* Mantém a proporção da imagem */
+    max-width: 300px; /* Define um tamanho máximo para a largura da imagem */
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+}
